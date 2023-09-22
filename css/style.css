@@ -618,15 +618,16 @@ button {
 .modal-title {
   text-align: center;
   font-weight: 500;
-  line-height: 1.5px; 
   letter-spacing: 0.32px;
   color: var(--navyblue);
-  margin-top: 34px;
-  margin-bottom: 22px;
+  margin-top: 24px;
+  margin-bottom: 10px;
 }
 
 .agreement-link{
   margin-left: 2px;
+  color: var(--iris);
+  text-decoration: underline;
 }
 
 .input-label {
@@ -786,6 +787,7 @@ button {
   font-size: 12px;
   font-weight: 400;
   line-height: 2; 
+  outline: none;
 }
 
 .subscribe-mail-input::placeholder {
